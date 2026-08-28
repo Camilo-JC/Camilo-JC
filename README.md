@@ -38,7 +38,7 @@
 ### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
 
 <div style="display: flex; justify-content: flex-start; margin-top: 10px; margin-bottom: 10px;">
-  <img src="./soccer2.gif" alt="Jugador" style="mix-blend-mode: screen; width: 100px;" />
+  <img src="./soccer2.gif" alt="Jugador" style="mix-blend-mode: screen; width: 140px;" />
 </div>
 
 ---
