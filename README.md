@@ -21,25 +21,26 @@
 ### <img src="https://img.shields.io/badge/💻-0A0A0A?style=flat&logoColor=E50914" /> STACK TECNOLÓGICO
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/JavaScript-0A0A0A?style=for-the-badge&logo=javascript&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=next.js&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/Django-0A0A0A?style=for-the-badge&logo=django&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/FastAPI-0A0A0A?style=for-the-badge&logo=fastapi&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0A0A0A?style=for-the-badge&logo=postgresql&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/MySQL-0A0A0A?style=for-the-badge&logo=mysql&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/Docker-0A0A0A?style=for-the-badge&logo=docker&logoColor=E50914" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </div>
 
 ---
 
-### <img src="https://img.shields.io/badge/📊-0A0A0A?style=flat&logoColor=E50914" /> ESTADÍSTICAS DE CÓDIGO
+### <img src="https://img.shields.io/badge/🎵-0A0A0A?style=flat&logoColor=E50914" /> SPOTIFY VIBES
 
 <div align="center">
-  <img src="https://img.shields.io/badge/GitHub--Stats-0A0A0A?style=for-the-badge&logo=github&logoColor=E50914" />
-  <img src="https://img.shields.io/badge/Core--Languages-0A0A0A?style=for-the-badge&logo=codeforces&logoColor=E50914" />
+  <a href="https://open.spotify.com">
+    <img src="https://img.shields.io/badge/Spotify-Escuchando_Música-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
+  </a>
 </div>
 
 ---
