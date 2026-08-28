@@ -54,18 +54,19 @@
 
 | Proyecto | Stack | Descripción |
 | :--- | :--- | :--- |
-| **HealthAnalytics IPS** | Next.js, Django, PostgreSQL | Plataforma de analítica clínica. |
+| **HealthAnalytics IPS** | Next.js, Django, PostgreSQL | Plataforma de analítica clínica y telemetría de salud. |
 | **SIGO (AlmacénCentral)** | Python, Tkinter, MySQL | Sistema desktop de gestión de inventarios con arquitectura MVC. |
-| **Los Toreto** | PWA, React, Node.js | PWA de gestión de tienda comercial. |
+| **Los Toreto** | PWA, React, Node.js | Aplicación Progresiva de gestión de tienda comercial. |
 
 ---
 
-### 🕹️ CONTRIBUCIONES (SNAKE/PACMAN)
+### 🕹️ LABERINTO DE CONTRIBUCIONES (PAC-MAN)
 
 <div align="center">
+  <!-- Esta imagen es generada automáticamente por GitHub Actions (pacman.yml) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/pacman-contribution-graph.svg">
+    <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/pacman-contribution-graph.svg">
   </picture>
 </div>
