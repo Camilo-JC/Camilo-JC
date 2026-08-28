@@ -38,7 +38,7 @@
 ### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Fútbol_%E2%9C%A8-Modo_Activo-0A0A0A?style=for-the-badge&logo=koo&logoColor=E50914" alt="Soccer Badge" />
+  <code>⚡ MENTALIDAD COMPETTTIVA EN EL CÓDIGO Y EN LA CANCHA ⚡</code>
 </div>
 
 ---
