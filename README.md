@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ CABDEVX | SOFTWARE DEVELOPER
+# ◆ CABDEVX | SOFTWARE DEVELOPER
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=E50914&center=true&vCenter=true&width=500&lines=Frontend+%26+Backend;Python+%7C+JavaScript;React+%7C+Django+%7C+Next.js" alt="Typing SVG" />
@@ -18,7 +18,7 @@
 
 ---
 
-### 🛠️ STACK TECNOLÓGICO
+### ❖ STACK TECNOLÓGICO
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=E50914" />
@@ -35,22 +35,16 @@
 
 ---
 
-### 📊 ESTADÍSTICAS DE CÓDIGO
+### ◧ ESTADÍSTICAS DE CÓDIGO
 
-<table align="center" style="border: none; background-color: transparent;">
-  <tr style="border: none;">
-    <td align="center" style="border: none;">
-      <img src="https://github-readme-stats.vercel.app/api?username=Camilo-JC&show_icons=true&theme=transparent&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3&icon_color=E50914" alt="GitHub Stats" />
-    </td>
-    <td align="center" style="border: none;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Camilo-JC&layout=compact&theme=transparent&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Camilo-JC&show_icons=true&theme=transparent&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3&icon_color=E50914&cache_seconds=86400" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Camilo-JC&layout=compact&theme=transparent&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3&cache_seconds=86400" alt="Top Languages" width="48%" />
+</div>
 
 ---
 
-### 🚀 PROYECTOS DESTACADOS
+### ◈ PROYECTOS DESTACADOS
 
 | Proyecto | Stack | Descripción |
 | :--- | :--- | :--- |
@@ -60,7 +54,7 @@
 
 ---
 
-### 🕹️ LABERINTO DE CONTRIBUCIONES (PAC-MAN)
+### ◬ LABERINTO DE CONTRIBUCIONES (PAC-MAN)
 
 <div align="center">
   <picture>
