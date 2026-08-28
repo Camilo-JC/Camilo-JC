@@ -38,10 +38,8 @@
 ### <img src="https://img.shields.io/badge/📊-0A0A0A?style=flat&logoColor=E50914" /> ESTADÍSTICAS DE CÓDIGO
 
 <div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Camilo-JC&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3&icon_color=E50914)](https://github.com/Camilo-JC)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Camilo-JC&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3)](https://github.com/Camilo-JC)
-
+  <img src="https://img.shields.io/badge/GitHub--Stats-0A0A0A?style=for-the-badge&logo=github&logoColor=E50914" />
+  <img src="https://img.shields.io/badge/Core--Languages-0A0A0A?style=for-the-badge&logo=codeforces&logoColor=E50914" />
 </div>
 
 ---
