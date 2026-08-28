@@ -39,7 +39,7 @@
 
 <div align="center">
   
-![Soccer GIF](./soccer.gif)
+
 
 </div>
 
