@@ -63,10 +63,9 @@
 ### 🕹️ LABERINTO DE CONTRIBUCIONES (PAC-MAN)
 
 <div align="center">
-  <!-- Esta imagen es generada automáticamente por GitHub Actions (pacman.yml) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/pacman-contribution-graph.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/pacman-contribution-graph.svg">
-    <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg">
+    <img alt="Pacman Contribution Graph" src="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg">
   </picture>
 </div>
