@@ -38,7 +38,7 @@
 ### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
 
 <div align="center">
-  <img src="https://media2.giphy.com/media/26FPn84g8528jNMoM/giphy.gif" alt="Pixel Soccer" width="100%" />
+  <code>⚽ [ ─── JUGADOR #10 ─── MENTALIDAD DE CAMPO ─── ] ⚽</code>
 </div>
 
 ---
