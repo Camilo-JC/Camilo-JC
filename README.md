@@ -38,7 +38,7 @@
 ### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
 
 <div align="center">
-  <img src="https://media.giphy.com/media/l4KMDvM41xI31Ff9C/giphy.gif" alt="Pixel Soccer" width="400" />
+  <img src="https://assets.stickpng.com/images/5a295484c0e86004483b4cf7.png" alt="Soccer Ball" width="100" />
 </div>
 
 ---
