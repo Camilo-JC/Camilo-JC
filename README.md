@@ -39,8 +39,10 @@
 
 <div align="center">
   
-<!-- El mix-blend-mode hace que el fondo blanco se vuelva transparente sobre el fondo oscuro -->
-<img src="./soccer2.gif" alt="Soccer GIF" style="mix-blend-mode: screen;" width="300" />
+<!-- Aquí está el cambio: más pequeño y alineado abajo a la izquierda -->
+<div style="display: flex; justify-content: flex-start; margin-top: -30px; padding-left: 10px;">
+  <img src="./soccer2.gif" alt="Soccer GIF" style="mix-blend-mode: screen; width: 140px;" />
+</div>
 
 </div>
 
