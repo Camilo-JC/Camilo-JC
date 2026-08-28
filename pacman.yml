@@ -1,0 +1,31 @@
+name: Generar Pacman
+
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
+  push:
+    branches:
+      - main # Cambia a 'principal' si así se llama tu rama base
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generar grafico de Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Camilo-JC
+          games: 'pacman'
+          
+      - name: Subir imagen a la rama output
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
