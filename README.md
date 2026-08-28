@@ -38,7 +38,9 @@
 ### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/main/soccer.gif" alt="Pixel Soccer GIF" width="220" />
+  
+![Soccer GIF](./soccer.gif)
+
 </div>
 
 ---
