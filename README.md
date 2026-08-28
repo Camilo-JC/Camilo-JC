@@ -38,7 +38,11 @@
 ### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
 
 <div align="center">
-  <img src="https://media2.giphy.com/media/26FPn84g8528jNMoM/giphy.gif" alt="Pixel Soccer" width="240" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/soccer-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/soccer-grid-snake.svg">
+    <img alt="Soccer Grid Snake" src="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/soccer-grid-snake.svg">
+  </picture>
 </div>
 
 ---
