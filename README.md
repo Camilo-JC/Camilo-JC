@@ -38,7 +38,7 @@
 ### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
 
 <div align="center">
-  <code>⚽ [ ─── JUGADOR #10 ─── MENTALIDAD DE CAMPO ─── ] ⚽</code>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Camilo-JC&repo=Camilo-JC&theme=transparent&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3&icon_color=E50914&hide_border=true" alt="Soccer Field Badge" />
 </div>
 
 ---
