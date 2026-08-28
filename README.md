@@ -35,12 +35,10 @@
 
 ---
 
-### <img src="https://img.shields.io/badge/🎵-0A0A0A?style=flat&logoColor=E50914" /> SPOTIFY VIBES
+### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
 
 <div align="center">
-  <a href="https://open.spotify.com">
-    <img src="https://img.shields.io/badge/Spotify-Escuchando_Música-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
-  </a>
+  <img src="https://media.giphy.com/media/l4KMDvM41xI31Ff9C/giphy.gif" alt="Pixel Soccer" width="400" />
 </div>
 
 ---
