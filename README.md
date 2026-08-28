@@ -1,6 +1,6 @@
 <div align="center">
 
-# ◆ CABDEVX | SOFTWARE DEVELOPER
+# <img src="https://img.shields.io/badge/⚡-0A0A0A?style=flat&logoColor=E50914" /> CABDEVX | SOFTWARE DEVELOPER
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=E50914&center=true&vCenter=true&width=500&lines=Frontend+%26+Backend;Python+%7C+JavaScript;React+%7C+Django+%7C+Next.js" alt="Typing SVG" />
@@ -18,7 +18,7 @@
 
 ---
 
-### ❖ STACK TECNOLÓGICO
+### <img src="https://img.shields.io/badge/💻-0A0A0A?style=flat&logoColor=E50914" /> STACK TECNOLÓGICO
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=E50914" />
@@ -35,16 +35,18 @@
 
 ---
 
-### ◧ ESTADÍSTICAS DE CÓDIGO
+### <img src="https://img.shields.io/badge/📊-0A0A0A?style=flat&logoColor=E50914" /> ESTADÍSTICAS DE CÓDIGO
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Camilo-JC&show_icons=true&theme=transparent&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3&icon_color=E50914&cache_seconds=86400" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Camilo-JC&layout=compact&theme=transparent&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3&cache_seconds=86400" alt="Top Languages" width="48%" />
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Camilo-JC&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3&icon_color=E50914)](https://github.com/Camilo-JC)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Camilo-JC&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=E50914&text_color=D3D3D3)](https://github.com/Camilo-JC)
+
 </div>
 
 ---
 
-### ◈ PROYECTOS DESTACADOS
+### <img src="https://img.shields.io/badge/📁-0A0A0A?style=flat&logoColor=E50914" /> PROYECTOS DESTACADOS
 
 | Proyecto | Stack | Descripción |
 | :--- | :--- | :--- |
@@ -54,7 +56,7 @@
 
 ---
 
-### ◬ LABERINTO DE CONTRIBUCIONES (PAC-MAN)
+### <img src="https://img.shields.io/badge/🕹️-0A0A0A?style=flat&logoColor=E50914" /> LABERINTO DE CONTRIBUCIONES (PAC-MAN)
 
 <div align="center">
   <picture>
