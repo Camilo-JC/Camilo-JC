@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://img.shields.io/badge/⚡-0A0A0A?style=flat&logoColor=E50914" /> CABDEVX | SOFTWARE DEVELOPER
+# <img src="https://img.shields.io/badge/ -0A0A0A?style=flat&logoColor=E50914" /> CABDEVX | SOFTWARE DEVELOPER
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=E50914&center=true&vCenter=true&width=500&lines=Frontend+%26+Backend;Python+%7C+JavaScript;React+%7C+Django+%7C+Next.js" alt="Typing SVG" />
