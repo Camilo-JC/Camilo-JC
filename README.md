@@ -39,7 +39,6 @@
 
 <div style="display: flex; justify-content: flex-start; margin-top: 10px; margin-bottom: 10px;">
   <img src="./soccer2.gif" alt="Jugador" style="mix-blend-mode: screen; width: 100px;" />
-  <img src="./soccer2.gif" alt="Jugador" style="mix-blend-mode: screen; width: 140px;" />
 </div>
 
 ---
