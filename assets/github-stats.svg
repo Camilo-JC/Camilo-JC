@@ -1,82 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="100%" height="100%" role="img" aria-label="CabDevX GitHub Stats">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" role="img" aria-label="CabDevX GitHub Telemetry HUD">
   <defs>
     <linearGradient id="gsBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#02060E"/>
-      <stop offset="55%" stop-color="#090909"/>
+      <stop offset="52%" stop-color="#090909"/>
       <stop offset="100%" stop-color="#19030B"/>
     </linearGradient>
     <linearGradient id="gsCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0B0B0E"/>
+      <stop offset="0%" stop-color="#0B0B0F"/>
       <stop offset="100%" stop-color="#05070B"/>
     </linearGradient>
-    <linearGradient id="gsAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#C50337"/>
-      <stop offset="65%" stop-color="#FF3366"/>
+    <linearGradient id="gsBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C50337" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#262626"/>
+      <stop offset="100%" stop-color="#666666" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3366"/>
+      <stop offset="60%" stop-color="#C50337"/>
       <stop offset="100%" stop-color="#666666"/>
     </linearGradient>
-    <linearGradient id="gsBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#C50337" stop-opacity="0.45"/>
-      <stop offset="50%" stop-color="#262626"/>
-      <stop offset="100%" stop-color="#666666" stop-opacity="0.45"/>
-    </linearGradient>
+    <radialGradient id="radarFill" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#C50337" stop-opacity="0.48"/>
+      <stop offset="100%" stop-color="#C50337" stop-opacity="0.14"/>
+    </radialGradient>
+    <filter id="glowCrimson" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
     <style>
       .sans { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
       .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+      .orbit-spin { animation: spinOrbit 18s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .orbit-rev { animation: spinRev 11s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .pulse-dot { animation: pulseDot 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .radar-breath { animation: radarBreath 3.5s ease-in-out infinite; }
+      @keyframes spinOrbit {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes spinRev {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.8); }
+      }
+      @keyframes radarBreath {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; }
+      }
     </style>
+    <clipPath id="dnaClip">
+      <rect x="824" y="128" width="326" height="12" rx="4"/>
+    </clipPath>
+    <linearGradient id="dnaSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3366" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#C50337" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
-  <rect x="1.5" y="1.5" width="1197" height="387" rx="18" fill="url(#gsBg)" stroke="url(#gsBorder)" stroke-width="1.5"/>
+  <rect x="1.5" y="1.5" width="1197" height="377" rx="18" fill="url(#gsBg)" stroke="url(#gsBorder)" stroke-width="1.5"/>
 
-  <!-- Header -->
-  <text x="34" y="42" fill="#F4F4F5" font-size="22" font-weight="700" class="sans">GitHub Stats</text>
-  <text x="34" y="62" fill="#666666" font-size="12" class="mono">cabdevx · 12 repositorios públicos · datos reales</text>
-  <rect x="1004" y="26" width="164" height="26" rx="13" fill="#090909" stroke="#262626"/>
-  <circle cx="1020" cy="39" r="3.5" fill="#C50337"/>
-  <text x="1032" y="43" fill="#A3A3A3" font-size="11" class="mono">AUTO-UPDATED</text>
+  <!-- Top HUD Header -->
+  <text x="32" y="40" fill="#F4F4F5" font-size="20" font-weight="700" class="sans">GitHub Telemetry</text>
+  <text x="206" y="40" fill="#666666" font-size="12" class="mono">:: Camilo-JC · LIVE REPO METRICS</text>
+  <rect x="1004" y="21" width="164" height="24" rx="12" fill="#090909" stroke="#262626"/>
+  <circle cx="1020" cy="33" r="3.5" fill="#C50337" class="pulse-dot"/>
+  <text x="1032" y="37" fill="#A3A3A3" font-size="10.5" class="mono">AUTO-SYNC 24H</text>
 
-  <!-- Row 1: 3 KPI Bento Cards -->
-  <rect x="32" y="82" width="366" height="122" rx="14" fill="url(#gsCard)" stroke="#222226" stroke-width="1.2"/>
-  <text x="54" y="108" fill="#888888" font-size="12.5" font-weight="600" class="sans">Contribuciones (último año)</text>
-  <text x="54" y="160" fill="#F4F4F5" font-size="44" font-weight="800" class="sans">315</text>
-  <text x="54" y="186" fill="#666666" font-size="11.5" class="mono">Nov 23 – Presente · 38 días activos</text>
+  <!-- Panel 1: Velocity & Streak Reactor (x=30..382) -->
+  <rect x="30" y="62" width="352" height="292" rx="14" fill="url(#gsCard)" stroke="#222226" stroke-width="1.2"/>
+  <text x="50" y="88" fill="#888888" font-size="11.5" font-weight="600" letter-spacing="1" class="mono">CONTRIBUTION REACTOR</text>
 
-  <rect x="417" y="82" width="366" height="122" rx="14" fill="url(#gsCard)" stroke="#222226" stroke-width="1.2"/>
-  <circle cx="484" cy="143" r="34" fill="none" stroke="#1A1A1F" stroke-width="6"/>
-  <circle cx="484" cy="143" r="34" fill="none" stroke="url(#gsAccent)" stroke-width="6" stroke-dasharray="29.9 213.6" stroke-linecap="round" transform="rotate(-90 484 143)"/>
-  <text x="484" y="150" text-anchor="middle" fill="#F4F4F5" font-size="22" font-weight="800" class="sans">01</text>
-  <text x="540" y="124" fill="#E5E5E5" font-size="14" font-weight="700" class="sans">Racha actual</text>
-  <text x="540" y="146" fill="#FF3366" font-size="12" class="mono">1 día seguido</text>
-  <text x="540" y="168" fill="#666666" font-size="11.5" class="mono">Nov 27 – Nov 27</text>
+  <!-- Dual Counter-Rotating Orbital Rings -->
+  <circle cx="186" cy="174" r="76" fill="none" stroke="#2E2E36" stroke-width="1.5" stroke-dasharray="6 10" class="orbit-spin"/>
+  <circle cx="186" cy="174" r="69" fill="none" stroke="#C50337" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="28 110" class="orbit-rev"/>
+  <circle cx="186" cy="174" r="60" fill="none" stroke="#16161A" stroke-width="9"/>
+  <circle cx="186" cy="174" r="60" fill="none" stroke="url(#ringGrad)" stroke-width="9" stroke-dasharray="159.2 377.0" stroke-linecap="round" transform="rotate(-90 186 174)" filter="url(#glowCrimson)">
+    <animate attributeName="stroke-opacity" values="0.78;1;0.78" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
 
-  <rect x="802" y="82" width="366" height="122" rx="14" fill="url(#gsCard)" stroke="#222226" stroke-width="1.2"/>
-  <text x="824" y="108" fill="#888888" font-size="12.5" font-weight="600" class="sans">Mejor racha</text>
-  <text x="824" y="160" fill="#F4F4F5" font-size="44" font-weight="800" class="sans">08<tspan fill="#C50337" font-size="16" font-weight="600"> días</tspan></text>
-  <text x="824" y="186" fill="#666666" font-size="11.5" class="mono">Pico: Aug 31 – Sep 07</text>
+  <text x="186" y="180" text-anchor="middle" fill="#F4F4F5" font-size="34" font-weight="800" class="sans">318</text>
+  <text x="186" y="198" text-anchor="middle" fill="#888888" font-size="9.5" letter-spacing="1" class="mono">CONTRIBS / AÑO</text>
 
-  <!-- Row 2: 2 Language / Focus Donut Cards -->
-  <rect x="32" y="218" width="558" height="148" rx="14" fill="url(#gsCard)" stroke="#222226" stroke-width="1.2"/>
-  <text x="54" y="244" fill="#E5E5E5" font-size="14" font-weight="700" class="sans">Lenguajes principales (código)</text>
-  <g transform="translate(54, 266)"><circle cx="5" cy="-4" r="4" fill="#C50337"/><text x="16" y="0" fill="#E5E5E5" font-size="12" class="mono">TypeScript</text><rect x="122" y="-9" width="150" height="7" rx="3.5" fill="#17171A"/><rect x="122" y="-9" width="57" height="7" rx="3.5" fill="#C50337"/><text x="284" y="0" fill="#888888" font-size="11.5" class="mono">39.5%</text></g><g transform="translate(54, 287)"><circle cx="5" cy="-4" r="4" fill="#E5E5E5"/><text x="16" y="0" fill="#E5E5E5" font-size="12" class="mono">Python</text><rect x="122" y="-9" width="150" height="7" rx="3.5" fill="#17171A"/><rect x="122" y="-9" width="46" height="7" rx="3.5" fill="#E5E5E5"/><text x="284" y="0" fill="#888888" font-size="11.5" class="mono">32.4%</text></g><g transform="translate(54, 308)"><circle cx="5" cy="-4" r="4" fill="#FF4D79"/><text x="16" y="0" fill="#E5E5E5" font-size="12" class="mono">HTML</text><rect x="122" y="-9" width="150" height="7" rx="3.5" fill="#17171A"/><rect x="122" y="-9" width="27" height="7" rx="3.5" fill="#FF4D79"/><text x="284" y="0" fill="#888888" font-size="11.5" class="mono">18.7%</text></g><g transform="translate(54, 329)"><circle cx="5" cy="-4" r="4" fill="#888888"/><text x="16" y="0" fill="#E5E5E5" font-size="12" class="mono">CSS</text><rect x="122" y="-9" width="150" height="7" rx="3.5" fill="#17171A"/><rect x="122" y="-9" width="8" height="7" rx="3.5" fill="#888888"/><text x="284" y="0" fill="#888888" font-size="11.5" class="mono">4.5%</text></g><g transform="translate(54, 350)"><circle cx="5" cy="-4" r="4" fill="#666666"/><text x="16" y="0" fill="#E5E5E5" font-size="12" class="mono">JavaScript</text><rect x="122" y="-9" width="150" height="7" rx="3.5" fill="#17171A"/><rect x="122" y="-9" width="8" height="7" rx="3.5" fill="#666666"/><text x="284" y="0" fill="#888888" font-size="11.5" class="mono">3.5%</text></g>
+  <!-- 4 Micro KPI Tiles inside Panel 1 -->
+  <rect x="48" y="266" width="150" height="36" rx="8" fill="#090909" stroke="#1E1E22"/>
+  <text x="58" y="281" fill="#666666" font-size="9.5" class="mono">RACHA ACTUAL</text>
+  <text x="58" y="295" fill="#FF3366" font-size="12.5" font-weight="700" class="mono">01d</text>
+  <text x="188" y="295" text-anchor="end" fill="#666666" font-size="9.5" class="mono">38 act.</text>
+
+  <rect x="208" y="266" width="154" height="36" rx="8" fill="#090909" stroke="#1E1E22"/>
+  <text x="218" y="281" fill="#666666" font-size="9.5" class="mono">MEJOR RACHA</text>
+  <text x="218" y="295" fill="#F4F4F5" font-size="12.5" font-weight="700" class="mono">08d</text>
+  <text x="352" y="295" text-anchor="end" fill="#666666" font-size="9" class="mono">Aug 31 – Sep 07</text>
+
+  <text x="206" y="332" text-anchor="middle" fill="#666666" font-size="10.5" class="mono">12 repositorios públicos · Nov 23 – Hoy</text>
+
+  <!-- Panel 2: 5-Axis Stack Radar (x=400..780) -->
+  <rect x="400" y="62" width="380" height="292" rx="14" fill="url(#gsCard)" stroke="#222226" stroke-width="1.2"/>
+  <text x="422" y="88" fill="#888888" font-size="11.5" font-weight="600" letter-spacing="1" class="mono">ENGINEERING RADAR</text>
+  <polygon points="585.0,177.6 612.0,197.2 601.7,229.0 568.3,229.0 558.0,197.2" fill="none" stroke="#1B1B20" stroke-width="1"/><polygon points="585.0,149.2 639.0,188.5 618.4,251.9 551.6,251.9 531.0,188.5" fill="none" stroke="#1B1B20" stroke-width="1"/><polygon points="585.0,120.0 666.8,179.4 635.5,275.6 534.5,275.6 503.2,179.4" fill="none" stroke="#2A2A30" stroke-width="1"/>
+  <line x1="585" y1="206" x2="585.0" y2="120.0" stroke="#222228" stroke-width="1"/><line x1="585" y1="206" x2="666.8" y2="179.4" stroke="#222228" stroke-width="1"/><line x1="585" y1="206" x2="635.5" y2="275.6" stroke="#222228" stroke-width="1"/><line x1="585" y1="206" x2="534.5" y2="275.6" stroke="#222228" stroke-width="1"/><line x1="585" y1="206" x2="503.2" y2="179.4" stroke="#222228" stroke-width="1"/>
+  <!-- Live Rotating Sonar Sweep -->
   <g>
-    <circle cx="476" cy="304" r="42" fill="none" stroke="#17171A" stroke-width="11"/>
-    <circle cx="476" cy="304" r="42" fill="none" stroke="#C50337" stroke-width="11" stroke-dasharray="103.22 263.89" stroke-dashoffset="-0.00" stroke-linecap="round" transform="rotate(-90 476 304)"/>
-      <circle cx="476" cy="304" r="42" fill="none" stroke="#E5E5E5" stroke-width="11" stroke-dasharray="84.22 263.89" stroke-dashoffset="-105.72" stroke-linecap="round" transform="rotate(-90 476 304)"/>
-      <circle cx="476" cy="304" r="42" fill="none" stroke="#FF4D79" stroke-width="11" stroke-dasharray="47.55 263.89" stroke-dashoffset="-192.43" stroke-linecap="round" transform="rotate(-90 476 304)"/>
-      <circle cx="476" cy="304" r="42" fill="none" stroke="#888888" stroke-width="11" stroke-dasharray="9.54 263.89" stroke-dashoffset="-242.48" stroke-linecap="round" transform="rotate(-90 476 304)"/>
-      <circle cx="476" cy="304" r="42" fill="none" stroke="#666666" stroke-width="11" stroke-dasharray="6.87 263.89" stroke-dashoffset="-254.53" stroke-linecap="round" transform="rotate(-90 476 304)"/>
-    <text x="476" y="302" text-anchor="middle" fill="#F4F4F5" font-size="17" font-weight="800" class="sans">40%</text>
-    <text x="476" y="318" text-anchor="middle" fill="#888888" font-size="10" class="mono">TypeScript</text>
+    <path d="M 585 206 L 585 120 A 86 86 0 0 1 632.3 134.6 Z" fill="url(#sweepGrad)" opacity="0.42">
+      <animateTransform attributeName="transform" type="rotate" from="0 585 206" to="360 585 206" dur="5.5s" repeatCount="indefinite"/>
+    </path>
   </g>
+  <polygon points="585.0,129.2 656.4,182.8 629.0,266.6 543.4,263.2 523.4,186.0" fill="url(#radarFill)" stroke="#C50337" stroke-width="2" class="radar-breath" filter="url(#glowCrimson)"/>
+  <circle cx="585.0" cy="129.2" r="4.2" fill="#FF3366" stroke="#090909" stroke-width="1.5"><animate attributeName="r" values="3.8;5.4;3.8" dur="2.2s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="656.4" cy="182.8" r="4.2" fill="#FF3366" stroke="#090909" stroke-width="1.5"><animate attributeName="r" values="3.8;5.4;3.8" dur="2.2s" begin="0.35s" repeatCount="indefinite"/></circle><circle cx="629.0" cy="266.6" r="4.2" fill="#FF3366" stroke="#090909" stroke-width="1.5"><animate attributeName="r" values="3.8;5.4;3.8" dur="2.2s" begin="0.7s" repeatCount="indefinite"/></circle><circle cx="543.4" cy="263.2" r="4.2" fill="#FF3366" stroke="#090909" stroke-width="1.5"><animate attributeName="r" values="3.8;5.4;3.8" dur="2.2s" begin="1.05s" repeatCount="indefinite"/></circle><circle cx="523.4" cy="186.0" r="4.2" fill="#FF3366" stroke="#090909" stroke-width="1.5"><animate attributeName="r" values="3.8;5.4;3.8" dur="2.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+  <text x="585.0" y="102.0" text-anchor="middle" fill="#D4D4D8" font-size="11" font-weight="600" class="mono">Frontend</text><text x="687.7" y="173.9" text-anchor="start" fill="#D4D4D8" font-size="11" font-weight="600" class="mono">TypeScript</text><text x="648.5" y="290.1" text-anchor="start" fill="#D4D4D8" font-size="11" font-weight="600" class="mono">Python</text><text x="521.5" y="290.1" text-anchor="end" fill="#D4D4D8" font-size="11" font-weight="600" class="mono">APIs / DB</text><text x="482.3" y="173.9" text-anchor="end" fill="#D4D4D8" font-size="11" font-weight="600" class="mono">Data &amp; ML</text>
 
-  <rect x="610" y="218" width="558" height="148" rx="14" fill="url(#gsCard)" stroke="#222226" stroke-width="1.2"/>
-  <text x="636" y="244" fill="#E5E5E5" font-size="14" font-weight="700" class="sans">Enfoque de desarrollo</text>
-  <g transform="translate(636, 272)"><circle cx="5" cy="-4" r="4.5" fill="#C50337"/><text x="18" y="0" fill="#E5E5E5" font-size="12.5" class="sans">Frontend &amp; UI</text><rect x="132" y="-9" width="155" height="8" rx="4" fill="#17171A"/><rect x="132" y="-9" width="99" height="8" rx="4" fill="#C50337"/><text x="298" y="0" fill="#D4D4D8" font-size="12" font-weight="600" class="mono">66%</text></g><g transform="translate(636, 300)"><circle cx="5" cy="-4" r="4.5" fill="#E5E5E5"/><text x="18" y="0" fill="#E5E5E5" font-size="12.5" class="sans">Backend &amp; APIs</text><rect x="132" y="-9" width="155" height="8" rx="4" fill="#17171A"/><rect x="132" y="-9" width="30" height="8" rx="4" fill="#E5E5E5"/><text x="298" y="0" fill="#D4D4D8" font-size="12" font-weight="600" class="mono">20%</text></g><g transform="translate(636, 328)"><circle cx="5" cy="-4" r="4.5" fill="#666666"/><text x="18" y="0" fill="#E5E5E5" font-size="12.5" class="sans">Data &amp; ML</text><rect x="132" y="-9" width="155" height="8" rx="4" fill="#17171A"/><rect x="132" y="-9" width="21" height="8" rx="4" fill="#666666"/><text x="298" y="0" fill="#D4D4D8" font-size="12" font-weight="600" class="mono">14%</text></g>
-  <g>
-    <circle cx="1068" cy="304" r="42" fill="none" stroke="#17171A" stroke-width="11"/>
-    <circle cx="1068" cy="304" r="42" fill="none" stroke="#C50337" stroke-width="11" stroke-dasharray="171.67 263.89" stroke-dashoffset="-0.00" stroke-linecap="round" transform="rotate(-90 1068 304)"/>
-      <circle cx="1068" cy="304" r="42" fill="none" stroke="#E5E5E5" stroke-width="11" stroke-dasharray="50.28 263.89" stroke-dashoffset="-174.17" stroke-linecap="round" transform="rotate(-90 1068 304)"/>
-      <circle cx="1068" cy="304" r="42" fill="none" stroke="#666666" stroke-width="11" stroke-dasharray="34.45 263.89" stroke-dashoffset="-226.95" stroke-linecap="round" transform="rotate(-90 1068 304)"/>
-    <text x="1068" y="302" text-anchor="middle" fill="#F4F4F5" font-size="17" font-weight="800" class="sans">66%</text>
-    <text x="1068" y="318" text-anchor="middle" fill="#888888" font-size="9.5" class="mono">Frontend</text>
+  <!-- Panel 3: Language DNA Spectrum (x=798..1170) -->
+  <rect x="798" y="62" width="372" height="292" rx="14" fill="url(#gsCard)" stroke="#222226" stroke-width="1.2"/>
+  <text x="824" y="88" fill="#888888" font-size="11.5" font-weight="600" letter-spacing="1" class="mono">CODE DNA SPECTRUM</text>
+  <text x="824" y="114" fill="#666666" font-size="10.5" class="mono">Distribución real por bytes</text>
+  <rect x="824" y="128" width="123" height="12" rx="4" fill="#C50337"/><rect x="950" y="128" width="106" height="12" rx="4" fill="#F4F4F5"/><rect x="1059" y="128" width="56" height="12" rx="4" fill="#FF4D79"/><rect x="1118" y="128" width="11" height="12" rx="4" fill="#888888"/><rect x="1132" y="128" width="15" height="12" rx="4" fill="#666666"/>
+  <g clip-path="url(#dnaClip)">
+    <rect x="764" y="126" width="56" height="16" fill="url(#dnaSheen)">
+      <animate attributeName="x" values="764;1190;1190" keyTimes="0;0.55;1" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
   </g>
+  <g transform="translate(824, 172)"><rect x="0" y="-10" width="3" height="16" rx="1.5" fill="#C50337"/><text x="12" y="2" fill="#F4F4F5" font-size="12.5" font-weight="600" class="mono">TypeScript</text><text x="326" y="2" text-anchor="end" fill="#A3A3A3" font-size="12" class="mono">38.7%</text><rect x="12" y="10" width="314" height="4" rx="2" fill="#17171B"/><rect x="12" y="10" width="81" height="4" rx="2" fill="#C50337" opacity="0.9"/></g><g transform="translate(824, 208)"><rect x="0" y="-10" width="3" height="16" rx="1.5" fill="#F4F4F5"/><text x="12" y="2" fill="#F4F4F5" font-size="12.5" font-weight="600" class="mono">Python</text><text x="326" y="2" text-anchor="end" fill="#A3A3A3" font-size="12" class="mono">33.6%</text><rect x="12" y="10" width="314" height="4" rx="2" fill="#17171B"/><rect x="12" y="10" width="70" height="4" rx="2" fill="#F4F4F5" opacity="0.9"/></g><g transform="translate(824, 244)"><rect x="0" y="-10" width="3" height="16" rx="1.5" fill="#FF4D79"/><text x="12" y="2" fill="#F4F4F5" font-size="12.5" font-weight="600" class="mono">HTML</text><text x="326" y="2" text-anchor="end" fill="#A3A3A3" font-size="12" class="mono">18.4%</text><rect x="12" y="10" width="314" height="4" rx="2" fill="#17171B"/><rect x="12" y="10" width="38" height="4" rx="2" fill="#FF4D79" opacity="0.9"/></g><g transform="translate(824, 280)"><rect x="0" y="-10" width="3" height="16" rx="1.5" fill="#888888"/><text x="12" y="2" fill="#F4F4F5" font-size="12.5" font-weight="600" class="mono">CSS</text><text x="326" y="2" text-anchor="end" fill="#A3A3A3" font-size="12" class="mono">4.4%</text><rect x="12" y="10" width="314" height="4" rx="2" fill="#17171B"/><rect x="12" y="10" width="10" height="4" rx="2" fill="#888888" opacity="0.9"/></g><g transform="translate(824, 316)"><rect x="0" y="-10" width="3" height="16" rx="1.5" fill="#666666"/><text x="12" y="2" fill="#F4F4F5" font-size="12.5" font-weight="600" class="mono">JavaScript</text><text x="326" y="2" text-anchor="end" fill="#A3A3A3" font-size="12" class="mono">3.4%</text><rect x="12" y="10" width="314" height="4" rx="2" fill="#17171B"/><rect x="12" y="10" width="10" height="4" rx="2" fill="#666666" opacity="0.9"/></g>
 </svg>
