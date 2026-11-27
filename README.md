@@ -1,26 +1,24 @@
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/main/assets/header.svg?v=1"
-    alt="CabDevX Header" width="100%"
-  />
+  <img src="./assets/header.svg" alt="CabDevX - Software Developer" width="100%" />
 </p>
 
 <table>
 <tr>
 <td width="70%" valign="top">
 
-Soy **Desarrollador de Software Junior** enfocado en construir **interfaces dinámicas** y **backends eficientes** de principio a fin.
+Soy **Camilo Caballero (`CabDevX`)**, Desarrollador de Software **Full Stack** enfocado en construir productos digitales completos — desde interfaces dinámicas hasta APIs eficientes.
 
-Me gusta cuidar la **arquitectura del código**, diseñar APIs sólidas y transformar ideas en aplicaciones prácticas listas para producción.
+Cuido la **arquitectura del código**, el diseño **UI/UX** y la integración de **datos y Machine Learning** para transformar ideas en aplicaciones listas para producción.
 
-Actualmente profundizando en **Next.js, Django, FastAPI y despliegue con Docker** para crear productos cada vez más completos. ⚡
+Actualmente profundizando en **Next.js, Django, FastAPI, PostgreSQL y Docker** para crear software cada vez más sólido. ⚡
 
 </td>
 <td align="center" width="30%" valign="middle">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/camilo-caballero-061252407/)<br/>
-[![Email](https://img.shields.io/badge/Email-E50914?style=for-the-badge&logo=gmail&logoColor=FFFFFF)](mailto:camilojc1725@gmail.com)<br/>
-[![GitHub](https://img.shields.io/badge/Repositorios-161B22?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/Camilo-JC?tab=repositories)
+[![Portfolio](https://img.shields.io/badge/Portafolio-090909?style=for-the-badge&logo=vercel&logoColor=C50337)](https://portafolio-coral-one-23.vercel.app/)<br/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-090909?style=for-the-badge&logo=linkedin&logoColor=E5E5E5)](https://www.linkedin.com/in/camilo-caballero-061252407/)<br/>
+[![Email](https://img.shields.io/badge/Email-C50337?style=for-the-badge&logo=gmail&logoColor=FFFFFF)](mailto:camilojc1725@gmail.com)<br/>
+[![Repos](https://img.shields.io/badge/Repositorios-02060E?style=for-the-badge&logo=github&logoColor=C50337)](https://github.com/Camilo-JC?tab=repositories)
 
 </td>
 </tr>
@@ -28,18 +26,18 @@ Actualmente profundizando en **Next.js, Django, FastAPI y despliegue con Docker*
 
 <table>
 <tr>
-<td align="center" width="32%" valign="middle">
-  <img src="./soccer2.gif" width="120" alt="Pasión por el juego"/>
+<td align="center" width="35%" valign="middle">
+  <img src="./assets/soccer2.gif" width="100%" alt="Código y Pasión por el Juego" />
 </td>
-<td width="68%" valign="top">
+<td width="65%" valign="top">
 
-**Enfoque & Filosofía ✦**
-
-⚡ **Desarrollo Full Stack**  
-Experiencia combinando ecosistemas de **Python (Django / FastAPI)** y **JavaScript (React / Next.js / Node.js)** con bases de datos relacionales.
-
+**Enfoque & Filosofía ✦**<br/><br/>
+⚡ **Arquitectura Full Stack & Producto**  
+Experiencia combinando ecosistemas de **Python (Django / FastAPI)** y **TypeScript (React / Next.js)** con bases de datos relacionales (**PostgreSQL / MySQL**) y contenedores **Docker**.<br/><br/>
+🧠 **Datos & Machine Learning Aplicado**  
+Construcción de plataformas con analítica clínica, tableros ejecutivos y modelos predictivos aplicados a necesidades reales (*HealthAnalytics IPS* y *EcoEnergy*).<br/><br/>
 ⚽ **Pasión por el juego**  
-Dentro y fuera del código creo en la disciplina, el trabajo en equipo y la mejora continua en cada iteración.
+Dentro y fuera del código creo en la disciplina, el juego en equipo y la mejora continua en cada iteración.
 
 </td>
 </tr>
@@ -47,38 +45,65 @@ Dentro y fuera del código creo en la disciplina, el trabajo en equipo y la mejo
 
 <table>
 <tr>
-<td width="42%" valign="top">
+<td width="40%" valign="top">
 
-**Stack Tecnológico**
+**✦ tech stack**<br/><br/>
 
 <p align="center">
-  <img src="./Skills_Animation_Dark.gif" width="360" alt="CabDevX Tech Stack Sphere" />
+  <img src="./assets/Skills_Animation_Dark.gif" width="360" alt="CabDevX Tech Stack Sphere" />
 </p>
 
+<br/>
+<sub>**Enfoque actual**</sub><br/>
+`Clean Architecture` `REST APIs` `PWA` `Machine Learning`
+
 </td>
-<td width="58%" valign="top">
+<td width="60%" valign="top">
 
-**✦ proyectos destacados**
-
+**✦ proyectos destacados**<br/><br/>
 🏥 **[HealthAnalytics IPS](https://github.com/Camilo-JC/HealthAnalytics)**  
-Plataforma de analítica clínica y telemetría de salud.  
-`Next.js` `Django` `PostgreSQL`
+Plataforma de gestión, analítica clínica y Machine Learning para datos de salud.  
+`Django 5` `Next.js 14` `PostgreSQL` `Docker`  
+[![Live](https://img.shields.io/badge/live-C50337?style=flat-square&logo=vercel&logoColor=FFFFFF)](https://health-analytics-fawn.vercel.app) [![API Docs](https://img.shields.io/badge/api_docs-666666?style=flat-square&logo=fastapi&logoColor=FFFFFF)](https://health-analytics-api.vercel.app/api/docs/)
 
 ---
 
-📦 **SIGO (AlmacénCentral)**  
-Sistema desktop de gestión de inventarios con arquitectura MVC.  
-`Python` `Tkinter` `MySQL`
+🐂 **[Los Toreto](https://github.com/Camilo-JC/toretos)**  
+Sistema de gestión táctica PWA para tiendas: dashboard financiero, fiados, inventario y reportes PDF.  
+`TypeScript` `React` `PWA` `JWT`  
+[![Live](https://img.shields.io/badge/live-C50337?style=flat-square&logo=vercel&logoColor=FFFFFF)](https://toretos.vercel.app)
 
 ---
 
-🛒 **Los Toreto**  
-Aplicación Web Progresiva (PWA) de gestión de tienda comercial.  
-`PWA` `React` `Node.js`
+🌱 **[EcoEnergy](https://github.com/Camilo-JC/ecoenergy)**  
+Simulador inteligente de consumo energético residencial impulsado por Machine Learning *(Hackathon 2026)*.  
+`Python` `Machine Learning` `JavaScript`  
+[![Live](https://img.shields.io/badge/live-666666?style=flat-square&logo=vercel&logoColor=FFFFFF)](https://ecoenergy-git-main-cabdevx.vercel.app/)
+
+---
+
+🚗 **[Tecnicentro Los Carros](https://github.com/Camilo-JC/TecnicentroLosCarros)**  
+Plataforma integral para gestión de taller automotriz: clientes, vehículos, servicios y citas.  
+`TypeScript` `Frontend`  
+[![Live](https://img.shields.io/badge/live-C50337?style=flat-square&logo=vercel&logoColor=FFFFFF)](https://tecnicentro-los-carros.vercel.app)
+
+---
 
 </td>
 </tr>
 </table>
+
+<h3 align="center"><code>// github stats</code></h3>
+
+<p align="center">
+  <img src="./assets/github-stats.svg" width="100%" alt="CabDevX GitHub Stats" />
+</p>
+
+<h3 align="center"><code>// builder activity</code></h3>
+
+<p align="center">
+  <img src="./assets/dev-telemetry.svg" width="100%" alt="CabDevX Builder Activity" />
+</p>
 
 <h3 align="center"><code>// laberinto de contribuciones</code></h3>
 
@@ -91,6 +116,10 @@ Aplicación Web Progresiva (PWA) de gestión de tienda comercial.
 </p>
 
 <br/>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Camilo-JC&label=Vistas&color=C50337&style=flat-square" alt="Profile Views" />
+</p>
 
 <p align="center">
   <sub>⚡ gracias por pasar — construyamos algo genial juntos — <a href="mailto:camilojc1725@gmail.com">hablemos</a></sub>
