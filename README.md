@@ -4,16 +4,14 @@
 
 <table>
 <tr>
-<td width="70%" valign="top">
+<td width="72%" valign="middle">
 
-Soy **Camilo Caballero (`CabDevX`)**, Desarrollador de Software **Full Stack** enfocado en construir productos digitales completos — desde interfaces dinámicas hasta APIs eficientes.
-
-Cuido la **arquitectura del código**, el diseño **UI/UX** y la integración de **datos y Machine Learning** para transformar ideas en aplicaciones listas para producción.
-
-Actualmente profundizando en **Next.js, Django, FastAPI, PostgreSQL y Docker** para crear software cada vez más sólido. ⚡
+**Camilo Caballero (`CabDevX`)** — *Full Stack Developer*<br/><br/>
+Construyo productos digitales de principio a fin: interfaces limpias, APIs sólidas y analítica con Machine Learning lista para producción.<br/><br/>
+`Next.js` · `React` · `Django` · `FastAPI` · `PostgreSQL` · `Docker` ⚡
 
 </td>
-<td align="center" width="30%" valign="middle">
+<td align="center" width="28%" valign="middle">
 
 [![Portfolio](https://img.shields.io/badge/Portafolio-090909?style=for-the-badge&logo=vercel&logoColor=C50337)](https://portafolio-coral-one-23.vercel.app/)<br/>
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-090909?style=for-the-badge&logo=linkedin&logoColor=E5E5E5)](https://www.linkedin.com/in/camilo-caballero-061252407/)<br/>
@@ -26,18 +24,15 @@ Actualmente profundizando en **Next.js, Django, FastAPI, PostgreSQL y Docker** p
 
 <table>
 <tr>
-<td align="center" width="35%" valign="middle">
-  <img src="./assets/soccer2.gif" width="100%" alt="Código y Pasión por el Juego" />
+<td align="center" width="30%" valign="middle">
+  <img src="./assets/soccer2.gif" width="130" alt="Pasión por el juego" />
 </td>
-<td width="65%" valign="top">
+<td width="70%" valign="middle">
 
 **Enfoque & Filosofía ✦**<br/><br/>
-⚡ **Arquitectura Full Stack & Producto**  
-Experiencia combinando ecosistemas de **Python (Django / FastAPI)** y **TypeScript (React / Next.js)** con bases de datos relacionales (**PostgreSQL / MySQL**) y contenedores **Docker**.<br/><br/>
-🧠 **Datos & Machine Learning Aplicado**  
-Construcción de plataformas con analítica clínica, tableros ejecutivos y modelos predictivos aplicados a necesidades reales (*HealthAnalytics IPS* y *EcoEnergy*).<br/><br/>
-⚽ **Pasión por el juego**  
-Dentro y fuera del código creo en la disciplina, el juego en equipo y la mejora continua en cada iteración.
+⚡ **Full Stack** — Python (`Django`, `FastAPI`) + TypeScript (`React`, `Next.js`) y SQL.<br/>
+🧠 **Datos & ML** — Analítica clínica y modelos predictivos aplicados a problemas reales.<br/>
+⚽ **Mentalidad** — Disciplina, juego en equipo e iteración continua dentro y fuera del código.
 
 </td>
 </tr>
@@ -50,44 +45,37 @@ Dentro y fuera del código creo en la disciplina, el juego en equipo y la mejora
 **✦ tech stack**<br/><br/>
 
 <p align="center">
-  <img src="./assets/Skills_Animation_Dark.gif" width="360" alt="CabDevX Tech Stack Sphere" />
+  <img src="./assets/Skills_Animation_Dark.gif" width="330" alt="CabDevX Tech Stack Sphere" />
 </p>
 
 <br/>
-<sub>**Enfoque actual**</sub><br/>
-`Clean Architecture` `REST APIs` `PWA` `Machine Learning`
+
 
 </td>
 <td width="60%" valign="top">
 
 **✦ proyectos destacados**<br/><br/>
-🏥 **[HealthAnalytics IPS](https://github.com/Camilo-JC/HealthAnalytics)**  
-Plataforma de gestión, analítica clínica y Machine Learning para datos de salud.  
+🏥 **[HealthAnalytics IPS](https://github.com/Camilo-JC/HealthAnalytics)** — Analítica clínica y ML en salud.  
 `Django 5` `Next.js 14` `PostgreSQL` `Docker`  
 [![Live](https://img.shields.io/badge/live-C50337?style=flat-square&logo=vercel&logoColor=FFFFFF)](https://health-analytics-fawn.vercel.app) [![API Docs](https://img.shields.io/badge/api_docs-666666?style=flat-square&logo=fastapi&logoColor=FFFFFF)](https://health-analytics-api.vercel.app/api/docs/)
 
 ---
 
-🐂 **[Los Toreto](https://github.com/Camilo-JC/toretos)**  
-Sistema de gestión táctica PWA para tiendas: dashboard financiero, fiados, inventario y reportes PDF.  
+🐂 **[Los Toreto](https://github.com/Camilo-JC/toretos)** — Gestión táctica PWA: ventas, fiados e inventario.  
 `TypeScript` `React` `PWA` `JWT`  
 [![Live](https://img.shields.io/badge/live-C50337?style=flat-square&logo=vercel&logoColor=FFFFFF)](https://toretos.vercel.app)
 
 ---
 
-🌱 **[EcoEnergy](https://github.com/Camilo-JC/ecoenergy)**  
-Simulador inteligente de consumo energético residencial impulsado por Machine Learning *(Hackathon 2026)*.  
+🌱 **[EcoEnergy](https://github.com/Camilo-JC/ecoenergy)** — Simulador energético con ML *(Hackathon 2026)*.  
 `Python` `Machine Learning` `JavaScript`  
 [![Live](https://img.shields.io/badge/live-666666?style=flat-square&logo=vercel&logoColor=FFFFFF)](https://ecoenergy-git-main-cabdevx.vercel.app/)
 
 ---
 
-🚗 **[Tecnicentro Los Carros](https://github.com/Camilo-JC/TecnicentroLosCarros)**  
-Plataforma integral para gestión de taller automotriz: clientes, vehículos, servicios y citas.  
+🚗 **[Tecnicentro Los Carros](https://github.com/Camilo-JC/TecnicentroLosCarros)** — Gestión de taller automotriz y citas.  
 `TypeScript` `Frontend`  
 [![Live](https://img.shields.io/badge/live-C50337?style=flat-square&logo=vercel&logoColor=FFFFFF)](https://tecnicentro-los-carros.vercel.app)
-
----
 
 </td>
 </tr>
@@ -122,5 +110,5 @@ Plataforma integral para gestión de taller automotriz: clientes, vehículos, se
 </p>
 
 <p align="center">
-  <sub>⚡ gracias por pasar — construyamos algo genial juntos — <a href="mailto:camilojc1725@gmail.com">hablemos</a></sub>
+  <sub>⚡ gracias por pasar — <a href="mailto:camilojc1725@gmail.com">hablemos</a></sub>
 </p>
