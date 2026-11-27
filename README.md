@@ -1,64 +1,103 @@
-<div align="center">
-
-# <img src="https://img.shields.io/badge/⚡-0A0A0A?style=flat&logoColor=E50914" /> CABDEVX | SOFTWARE DEVELOPER
-
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=E50914&center=true&vCenter=true&width=500&lines=Frontend+%26+Backend;Python+%7C+JavaScript;React+%7C+Django+%7C+Next.js" alt="Typing SVG" />
-</a>
-
-<br/>
 <p align="center">
-<a href="https://www.linkedin.com/in/camilo-caballero-061252407/"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=E50914" alt="LinkedIn" /></a>
-<a href="mailto:camilojc1725@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=E50914" alt="Email" /></a>
+  <img
+    src="https://raw.githubusercontent.com/Camilo-JC/Camilo-JC/main/assets/header.svg?v=1"
+    alt="CabDevX Header" width="100%"
+  />
 </p>
 
-*Desarrollador Junior construyendo interfaces dinámicas y backends eficientes.*
+<table>
+<tr>
+<td width="70%" valign="top">
 
-</div>
+Soy **Desarrollador de Software Junior** enfocado en construir **interfaces dinámicas** y **backends eficientes** de principio a fin.
+
+Me gusta cuidar la **arquitectura del código**, diseñar APIs sólidas y transformar ideas en aplicaciones prácticas listas para producción.
+
+Actualmente profundizando en **Next.js, Django, FastAPI y despliegue con Docker** para crear productos cada vez más completos. ⚡
+
+</td>
+<td align="center" width="30%" valign="middle">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/camilo-caballero-061252407/)<br/>
+[![Email](https://img.shields.io/badge/Email-E50914?style=for-the-badge&logo=gmail&logoColor=FFFFFF)](mailto:camilojc1725@gmail.com)<br/>
+[![GitHub](https://img.shields.io/badge/Repositorios-161B22?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/Camilo-JC?tab=repositories)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="32%" valign="middle">
+  <img src="./soccer2.gif" width="120" alt="Pasión por el juego"/>
+</td>
+<td width="68%" valign="top">
+
+**Enfoque & Filosofía ✦**
+
+⚡ **Desarrollo Full Stack**  
+Experiencia combinando ecosistemas de **Python (Django / FastAPI)** y **JavaScript (React / Next.js / Node.js)** con bases de datos relacionales.
+
+⚽ **Pasión por el juego**  
+Dentro y fuera del código creo en la disciplina, el trabajo en equipo y la mejora continua en cada iteración.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="42%" valign="top">
+
+**✦ tech stack**
+
+<sub>**Frontend**</sub><br/>
+<img src="https://skillicons.dev/icons?i=js,react,nextjs,html,css" /><br/>
+
+<sub>**Backend & Databases**</sub><br/>
+<img src="https://skillicons.dev/icons?i=py,django,fastapi,nodejs" /><br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql" /><br/>
+
+<sub>**DevOps & Tools**</sub><br/>
+<img src="https://skillicons.dev/icons?i=docker,git,github,vscode" />
+
+</td>
+<td width="58%" valign="top">
+
+**✦ proyectos destacados**
+
+🏥 **[HealthAnalytics IPS](https://github.com/Camilo-JC/HealthAnalytics)**  
+Plataforma de analítica clínica y telemetría de salud.  
+`Next.js` `Django` `PostgreSQL`
 
 ---
 
-### <img src="https://img.shields.io/badge/💻-0A0A0A?style=flat&logoColor=E50914" /> STACK TECNOLÓGICO
-
-<div align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</div>
+📦 **SIGO (AlmacénCentral)**  
+Sistema desktop de gestión de inventarios con arquitectura MVC.  
+`Python` `Tkinter` `MySQL`
 
 ---
 
-### <img src="https://img.shields.io/badge/⚽-0A0A0A?style=flat&logoColor=E50914" /> PASIÓN POR EL JUEGO
+🛒 **Los Toreto**  
+Aplicación Web Progresiva (PWA) de gestión de tienda comercial.  
+`PWA` `React` `Node.js`
 
-<div style="display: flex; justify-content: flex-start; margin-top: 10px; margin-bottom: 10px;">
-  <img src="./soccer2.gif" alt="Jugador" style="mix-blend-mode: screen; width: 100px;" />
-</div>
+</td>
+</tr>
+</table>
 
----
+<h3 align="center"><code>// laberinto de contribuciones</code></h3>
 
-### <img src="https://img.shields.io/badge/📁-0A0A0A?style=flat&logoColor=E50914" /> PROYECTOS DESTACADOS
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg">
+    <img alt="Pacman Contribution Graph" src="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg" width="100%">
+  </picture>
+</p>
 
-| Proyecto | Stack | Descripción |
-| :--- | :--- | :--- |
-| **HealthAnalytics IPS** | Next.js, Django, PostgreSQL | Plataforma de analítica clínica y telemetría de salud. |
-| **SIGO (AlmacénCentral)** | Python, Tkinter, MySQL | Sistema desktop de gestión de inventarios con arquitectura MVC. |
-| **Los Toreto** | PWA, React, Node.js | Aplicación Progresiva de gestión de tienda comercial. |
+<br/>
 
----
-
-### <img src="https://img.shields.io/badge/🕹️-0A0A0A?style=flat&logoColor=E50914" /> LABERINTO DE CONTRIBUCIONES (PAC-MAN)
-
-<div align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg">
-<img alt="Pacman Contribution Graph" src="https://cdn.jsdelivr.net/gh/Camilo-JC/Camilo-JC@output/pacman-contribution-graph-dark.svg">
-</picture>
-</div>
+<p align="center">
+  <sub>⚡ gracias por pasar — construyamos algo genial juntos — <a href="mailto:camilojc1725@gmail.com">hablemos</a></sub>
+</p>
