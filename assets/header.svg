@@ -1,0 +1,336 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" role="img" aria-label="CabDevX - Software Developer Animated Header">
+  <defs>
+    <!-- Crimson Noir & Obsidian Graphite Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02060E"/>
+      <stop offset="52%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#1A030B"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C50337" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#666666" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#C50337" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="44%" r="48%">
+      <stop offset="0%" stop-color="#C50337" stop-opacity="0.22"/>
+      <stop offset="52%" stop-color="#666666" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#02060E" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="horizonGlow" cx="50%" cy="100%" r="55%">
+      <stop offset="0%" stop-color="#C50337" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#5A0219" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#02060E" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#E5E5E5"/>
+      <stop offset="100%" stop-color="#B8B8B8"/>
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C50337" stop-opacity="0"/>
+      <stop offset="28%" stop-color="#C50337"/>
+      <stop offset="50%" stop-color="#FF3366"/>
+      <stop offset="72%" stop-color="#666666"/>
+      <stop offset="100%" stop-color="#666666" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C50337" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="soccerSphere" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#F4F4F5"/>
+      <stop offset="52%" stop-color="#666666"/>
+      <stop offset="100%" stop-color="#C50337"/>
+    </radialGradient>
+
+    <radialGradient id="planetCrimson" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#FF3366"/>
+      <stop offset="55%" stop-color="#880326"/>
+      <stop offset="100%" stop-color="#02060E"/>
+    </radialGradient>
+
+    <filter id="neonGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="2" y="2" width="1196" height="376" rx="20"/>
+    </clipPath>
+
+    <clipPath id="floorClip">
+      <rect x="2" y="274" width="1196" height="104" rx="0"/>
+    </clipPath>
+
+    <style>
+      .hud-text {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+      .display-title {
+        font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      }
+      .star-a { animation: twinkle 3.6s ease-in-out infinite; }
+      .star-b { animation: twinkle 4.8s ease-in-out 1.2s infinite; }
+      .star-c { animation: twinkle 5.4s ease-in-out 2.3s infinite; }
+      .float-slow { animation: floatY 5.5s ease-in-out infinite; }
+      .float-alt { animation: floatY 6.5s ease-in-out 1.5s infinite; }
+      .pulse-dot { animation: pulseDot 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .blink-cursor { animation: blink 1s steps(2, start) infinite; }
+      .circuit-flow {
+        stroke-dasharray: 18 140;
+        animation: dashFlow 4.2s linear infinite;
+      }
+      .circuit-flow-rev {
+        stroke-dasharray: 16 140;
+        animation: dashFlowRev 4.8s linear infinite;
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.22; }
+        50% { opacity: 0.92; }
+      }
+      @keyframes floatY {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(0.85); }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 158; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes dashFlowRev {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 156; }
+      }
+    </style>
+  </defs>
+
+  <!-- Main Card Frame -->
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="1200" height="380" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="1200" height="380" fill="url(#centerGlow)"/>
+    <rect x="0" y="140" width="1200" height="240" fill="url(#horizonGlow)"/>
+
+    <!-- Subtle Starfield -->
+    <g fill="#E5E5E5">
+      <circle class="star-a" cx="92" cy="78" r="1.3"/>
+      <circle class="star-b" cx="175" cy="132" r="1.1" fill="#666666"/>
+      <circle class="star-c" cx="268" cy="64" r="1.6" fill="#C50337"/>
+      <circle class="star-a" cx="352" cy="112" r="1.1"/>
+      <circle class="star-b" cx="440" cy="54" r="1.4" fill="#999999"/>
+      <circle class="star-c" cx="535" cy="88" r="1.0"/>
+      <circle class="star-a" cx="688" cy="62" r="1.3" fill="#FF3366"/>
+      <circle class="star-b" cx="765" cy="105" r="1.1"/>
+      <circle class="star-c" cx="842" cy="58" r="1.5" fill="#666666"/>
+      <circle class="star-a" cx="930" cy="118" r="1.2" fill="#C50337"/>
+      <circle class="star-b" cx="1018" cy="72" r="1.4"/>
+      <circle class="star-c" cx="1110" cy="144" r="1.2" fill="#999999"/>
+      <circle class="star-a" cx="132" cy="218" r="1.2"/>
+      <circle class="star-b" cx="295" cy="235" r="1.0" fill="#C50337"/>
+      <circle class="star-c" cx="890" cy="228" r="1.1" fill="#666666"/>
+      <circle class="star-a" cx="1085" cy="232" r="1.3" fill="#FF3366"/>
+    </g>
+
+    <!-- Left Circuit Board Traces (Crimson Noir) -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 0 110 L 62 110 L 94 142 L 154 142" stroke="#C50337" stroke-opacity="0.28" stroke-width="1.5"/>
+      <path d="M 0 138 L 48 138 L 80 170 L 128 170" stroke="#666666" stroke-opacity="0.32" stroke-width="1.5"/>
+      <path d="M 0 110 L 62 110 L 94 142 L 154 142" stroke="#FF2A5F" stroke-width="2" class="circuit-flow" filter="url(#neonGlow)"/>
+      <circle cx="154" cy="142" r="2.8" fill="#C50337" opacity="0.85"/>
+      <circle cx="128" cy="170" r="2.5" fill="#666666" opacity="0.8"/>
+    </g>
+
+    <!-- Right Circuit Board Traces (Graphite & Silver) -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 1200 108 L 1138 108 L 1106 140 L 1044 140" stroke="#666666" stroke-opacity="0.35" stroke-width="1.5"/>
+      <path d="M 1200 136 L 1150 136 L 1120 166 L 1072 166" stroke="#C50337" stroke-opacity="0.26" stroke-width="1.5"/>
+      <path d="M 1200 108 L 1138 108 L 1106 140 L 1044 140" stroke="#E5E5E5" stroke-width="2" class="circuit-flow-rev" filter="url(#neonGlow)"/>
+      <circle cx="1044" cy="140" r="2.8" fill="#E5E5E5" opacity="0.8"/>
+      <circle cx="1072" cy="166" r="2.5" fill="#C50337" opacity="0.75"/>
+    </g>
+
+    <!-- Crimson Noir Perspective Grid Floor -->
+    <g clip-path="url(#floorClip)">
+      <!-- Perspective Vertical Rays -->
+      <g stroke="#C50337" stroke-opacity="0.28" stroke-width="1.2">
+        <line x1="600" y1="274" x2="600" y2="380" stroke="#FF3366" stroke-opacity="0.5" stroke-width="1.8"/>
+        <line x1="560" y1="274" x2="465" y2="380"/>
+        <line x1="640" y1="274" x2="735" y2="380"/>
+        <line x1="520" y1="274" x2="320" y2="380"/>
+        <line x1="680" y1="274" x2="880" y2="380"/>
+        <line x1="480" y1="274" x2="170" y2="380"/>
+        <line x1="720" y1="274" x2="1030" y2="380"/>
+        <line x1="440" y1="274" x2="20" y2="380" stroke="#666666" stroke-opacity="0.25"/>
+        <line x1="760" y1="274" x2="1180" y2="380" stroke="#666666" stroke-opacity="0.25"/>
+        <line x1="400" y1="274" x2="-120" y2="380" stroke="#666666" stroke-opacity="0.2"/>
+        <line x1="800" y1="274" x2="1320" y2="380" stroke="#666666" stroke-opacity="0.2"/>
+      </g>
+
+      <!-- Animated Horizontal Scan Grid Lines -->
+      <g stroke="#C50337" stroke-width="1.2">
+        <line x1="0" y1="276" x2="1200" y2="276" stroke-opacity="0.25">
+          <animate attributeName="y1" values="275;380" dur="3.2s" repeatCount="indefinite"/>
+          <animate attributeName="y2" values="275;380" dur="3.2s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-opacity" values="0.14;0.62;0.2" dur="3.2s" repeatCount="indefinite"/>
+        </line>
+        <line x1="0" y1="296" x2="1200" y2="296" stroke-opacity="0.3">
+          <animate attributeName="y1" values="275;380" dur="3.2s" begin="-0.8s" repeatCount="indefinite"/>
+          <animate attributeName="y2" values="275;380" dur="3.2s" begin="-0.8s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-opacity" values="0.14;0.62;0.2" dur="3.2s" begin="-0.8s" repeatCount="indefinite"/>
+        </line>
+        <line x1="0" y1="322" x2="1200" y2="322" stroke-opacity="0.35">
+          <animate attributeName="y1" values="275;380" dur="3.2s" begin="-1.6s" repeatCount="indefinite"/>
+          <animate attributeName="y2" values="275;380" dur="3.2s" begin="-1.6s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-opacity" values="0.14;0.62;0.2" dur="3.2s" begin="-1.6s" repeatCount="indefinite"/>
+        </line>
+        <line x1="0" y1="354" x2="1200" y2="354" stroke-opacity="0.4">
+          <animate attributeName="y1" values="275;380" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
+          <animate attributeName="y2" values="275;380" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-opacity" values="0.14;0.62;0.2" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
+        </line>
+      </g>
+    </g>
+
+    <!-- Horizon Glow Line -->
+    <line x1="20" y1="274" x2="1180" y2="274" stroke="url(#accentLine)" stroke-width="1.6" filter="url(#neonGlow)"/>
+
+    <!-- Top HUD Bar -->
+    <g transform="translate(36, 26)">
+      <rect x="0" y="0" width="236" height="28" rx="14" fill="#090909" fill-opacity="0.9" stroke="#262626" stroke-width="1"/>
+      <circle class="pulse-dot" cx="18" cy="14" r="4.5" fill="#C50337"/>
+      <text x="32" y="18" fill="#E5E5E5" font-size="11" font-weight="600" letter-spacing="1.1" class="hud-text">ONLINE · OPEN TO WORK</text>
+    </g>
+
+    <g transform="translate(918, 26)">
+      <rect x="0" y="0" width="246" height="28" rx="14" fill="#090909" fill-opacity="0.9" stroke="#262626" stroke-width="1"/>
+      <text x="123" y="18" text-anchor="middle" fill="#D4D4D8" font-size="11" font-weight="600" letter-spacing="1.1" class="hud-text">PYTHON · NEXT.JS · DJANGO</text>
+    </g>
+
+    <!-- Signature Easter Egg 1: Mini Pixel Pac-Man Chase (Top-Left) -->
+    <g transform="translate(52, 82)" opacity="0.9">
+      <circle cx="38" cy="12" r="2.2" fill="#666666" opacity="0.75"/>
+      <circle cx="58" cy="12" r="2.2" fill="#666666" opacity="0.75"/>
+      <circle cx="78" cy="12" r="2.2" fill="#666666" opacity="0.75"/>
+      <circle cx="98" cy="12" r="2.2" fill="#666666" opacity="0.75"/>
+      <circle cx="118" cy="12" r="2.2" fill="#666666" opacity="0.75"/>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 126,0; 0,0" dur="9s" repeatCount="indefinite"/>
+        <!-- Ghost (Crimson) -->
+        <g transform="translate(0, 2)">
+          <path d="M 2 10 A 8 8 0 0 1 18 10 L 18 19 L 15 16.5 L 12.5 19 L 10 16.5 L 7.5 19 L 5 16.5 L 2 19 Z" fill="#C50337" filter="url(#neonGlow)"/>
+          <circle cx="7.5" cy="9" r="1.8" fill="#FFFFFF"/>
+          <circle cx="13" cy="9" r="1.8" fill="#FFFFFF"/>
+        </g>
+        <!-- Pac-Man (Off-White Silver) -->
+        <g transform="translate(26, 2)">
+          <circle cx="9" cy="10" r="8.5" fill="#F4F4F5" filter="url(#neonGlow)"/>
+          <polygon points="9,10 19,5 19,15" fill="#090909">
+            <animate attributeName="points" values="9,10 19,4 19,16; 9,10 19,9.8 19,10.2; 9,10 19,4 19,16" dur="0.4s" repeatCount="indefinite"/>
+          </polygon>
+        </g>
+      </g>
+    </g>
+
+    <!-- Signature Easter Egg 2: Crimson & Steel Soccer Planet (Bottom-Left) -->
+    <g transform="translate(152, 224)">
+      <g class="float-slow">
+        <circle cx="0" cy="0" r="44" fill="#C50337" fill-opacity="0.14" filter="url(#softGlow)"/>
+        <ellipse cx="0" cy="0" rx="64" ry="16" transform="rotate(-14)" fill="none" stroke="#666666" stroke-opacity="0.6" stroke-width="2"/>
+        <circle cx="0" cy="0" r="38" fill="url(#soccerSphere)" stroke="#E5E5E5" stroke-opacity="0.55" stroke-width="1.2"/>
+        <g stroke="#02060E" stroke-opacity="0.7" stroke-width="1.4" fill="#090909" fill-opacity="0.48">
+          <polygon points="0,-13 12,-4 7,10 -7,10 -12,-4"/>
+          <polygon points="-24,-14 -14,-28 -4,-22 -12,-4 -26,-2"/>
+          <polygon points="24,-14 26,-2 12,-4 4,-22 14,-28"/>
+          <polygon points="-22,20 -8,28 -7,10 -12,-4 -26,8"/>
+          <polygon points="22,20 26,8 12,-4 7,10 8,28"/>
+        </g>
+        <path d="M -64 0 A 64 16 0 0 0 64 0" transform="rotate(-14)" fill="none" stroke="#C50337" stroke-width="2.4" filter="url(#neonGlow)"/>
+      </g>
+    </g>
+
+    <!-- Signature Easter Egg 3: Crimson Noir Planet + Dev Icons (Right) -->
+    <g transform="translate(1042, 206)">
+      <g class="float-alt">
+        <circle cx="0" cy="0" r="32" fill="url(#planetCrimson)" stroke="#666666" stroke-opacity="0.55" stroke-width="1"/>
+        <ellipse cx="0" cy="0" rx="58" ry="13" transform="rotate(-16)" fill="none" stroke="#C50337" stroke-opacity="0.8" stroke-width="1.8" filter="url(#neonGlow)"/>
+      </g>
+    </g>
+
+    <g transform="translate(972, 102)">
+      <g class="float-slow" filter="url(#neonGlow)">
+        <polygon points="12,0 2,16 10,16 7,28 20,11 11,11" fill="none" stroke="#C50337" stroke-width="2" stroke-linejoin="round"/>
+        <text x="36" y="21" fill="#E5E5E5" font-size="20" font-weight="700" class="hud-text">&lt;/&gt;</text>
+      </g>
+    </g>
+
+    <!-- Centerpiece Typography -->
+    <g text-anchor="middle">
+      <text x="600" y="106" fill="#888888" font-size="12" font-weight="600" letter-spacing="4.2" class="hud-text">PORTFOLIO · ARCHITECTURE · CODE</text>
+
+      <text x="600" y="176" fill="#C50337" fill-opacity="0.32" font-size="76" font-weight="800" letter-spacing="8" class="display-title" filter="url(#softGlow)">CABDEVX</text>
+      <text x="600" y="176" fill="url(#titleGrad)" font-size="76" font-weight="800" letter-spacing="8" class="display-title">CABDEVX</text>
+
+      <rect x="340" y="114" width="70" height="72" fill="url(#sheenGrad)" opacity="0.4" transform="skewX(-18)">
+        <animate attributeName="x" values="300;880;880" keyTimes="0;0.42;1" dur="4.5s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="600" y="214" fill="#F4F4F5" font-size="22" font-weight="600" letter-spacing="1.2" class="display-title">
+        Software Developer <tspan fill="#666666">·</tspan> <tspan fill="#FF3366">Camilo Caballero</tspan>
+      </text>
+
+      <rect x="440" y="230" width="320" height="2" rx="1" fill="url(#accentLine)"/>
+
+      <!-- Video-style Animated Terminal Ticker Pill -->
+      <g transform="translate(310, 248)">
+        <rect x="0" y="0" width="580" height="36" rx="10" fill="#02060E" fill-opacity="0.92" stroke="#262626" stroke-width="1.2"/>
+        <text x="20" y="23" text-anchor="start" fill="#C50337" font-size="13.5" font-weight="700" class="hud-text">❯</text>
+
+        <text x="38" y="23" text-anchor="start" fill="#E5E5E5" font-size="13.5" class="hud-text" opacity="1">
+          building full-stack apps with Next.js &amp; Django
+          <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.28;0.33;0.95;0.99;1" dur="12s" repeatCount="indefinite"/>
+        </text>
+        <text x="38" y="23" text-anchor="start" fill="#FF4D79" font-size="13.5" class="hud-text" opacity="0">
+          designing clean APIs with FastAPI &amp; PostgreSQL
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.32;0.37;0.62;0.67;1" dur="12s" repeatCount="indefinite"/>
+        </text>
+        <text x="38" y="23" text-anchor="start" fill="#D4D4D8" font-size="13.5" class="hud-text" opacity="0">
+          turning data &amp; Machine Learning into real products
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.71;0.94;0.99;1" dur="12s" repeatCount="indefinite"/>
+        </text>
+
+        <rect x="550" y="11" width="8" height="15" rx="1.5" fill="#C50337" class="blink-cursor"/>
+      </g>
+    </g>
+
+    <text x="600" y="358" text-anchor="middle" fill="#8A8A8A" font-size="11.5" letter-spacing="2.2" class="hud-text">
+      INTERFACES DINÁMICAS · ARQUITECTURA LIMPIA · PRODUCCIÓN
+    </text>
+  </g>
+
+  <rect x="2" y="2" width="1196" height="376" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+</svg>
